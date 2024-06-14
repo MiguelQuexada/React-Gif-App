@@ -1,8 +1,13 @@
-# React + Vite
+# Gif React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pasos para ejecutar el proyecto:
 
-Currently, two official plugins are available:
+1. Clonar repositorio
+2. Reconstruir los módulos de node usando ``npm install``
+3. Correr el servidor de desarrollo ``npm run dev``
+4. Abrir el proyecto en ``http://localhost:5173``
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Producción
+
+1. Ejecutar ``npm run build``
+2. Desplegar usando la carpeta ``dist``
